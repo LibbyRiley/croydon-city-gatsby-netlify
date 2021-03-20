@@ -2,16 +2,10 @@
 heading: Praesent venenatis metus
 path: /products
 templateKey: product-page
-title: Our Coffee
+title: Shop Our Merchandise
 image: /img/jumbotron.jpg
 description: Donec venenatis vulputate lorem. Sed in libero ut nibh placerat
-  accumsan. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-  Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed
-  gravida augue augue mollis justo. Phasellus dolor.  Lorem ipsum dolor sit
-  amet, consectetuer adipiscing elit. Proin magna. Suspendisse faucibus, nunc et
-  pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id
-  tortor. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat,
-  pede.
+  accumsan. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.
 intro:
   blurbs:
     - image: /img/coffee.png
