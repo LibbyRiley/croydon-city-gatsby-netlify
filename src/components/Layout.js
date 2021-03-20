@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import "./all.scss";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
-
+import ContextProvider from "../provider/ContextProvider";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
@@ -48,9 +48,11 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
+      <ContextProvider>
+        <Navbar />
+        <div>{children}</div>
+        <Footer />
+      </ContextProvider>
     </div>
   );
 };

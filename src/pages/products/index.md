@@ -1,7 +1,7 @@
 ---
 heading: Praesent venenatis metus
 path: /products
-templateKey: product-page
+templateKey: products-page
 title: Shop Our Merchandise
 image: /img/jumbotron.jpg
 description: Donec venenatis vulputate lorem. Sed in libero ut nibh placerat
@@ -59,7 +59,8 @@ main:
     image: /img/products-grid1.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
-    quote: The first time I tried Kaldi’s coffee, I couldn’t even believe that was
+    quote:
+      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
       the same thing I’ve been drinking every morning.
   - author: Philipp Trommler
     quote: Kaldi is the place to go if you want the best quality coffee. I love
