@@ -33,9 +33,9 @@ const Navbar = ({ props }) => {
             Home
             {/* <img src={logo} alt="Kaldi" style={{ width: "88px" }} /> */}
           </Link>
-          <Link to="/cart">
+          <Link className="navbar-item" to="/cart">
             {hasItems && <span>{quantity}</span>}
-            Cart 🛍
+            Cart 🛒
           </Link>
           {/* Hamburger menu */}
           <div
